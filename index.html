@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>mini shopping mall</title>
+</head>
+
+<body>
+
+    <h1><a href="index.html">MINI SHOP</a> </h1>
+    <div class="click">
+        <!--logo-->
+        <img src="img/logo.png" alt="logo" class="logo" />
+        <!--button-->
+        <div class="btns">
+
+            <button class="btn">
+                <img src="img/blue_t.png" alt="tshirt" class="imgBtn" data-key="type" data-value="tshirt" />
+                <!--(custom property)data 다음에 사용하고 싶은 어떤 이름 붙여서 원하는 대로 데이터 정의할 수 있음 --->
+            </button>
+
+            <button class="btn">
+                <img src="img/blue_p.png" alt="pants" class="imgBtn" data-key="type" data-value="pants" />
+            </button>
+
+            <button class="btn">
+                <img src="img/blue_s.png" alt="skirt" class="imgBtn" data-key="type" data-value="skirt" />
+            </button>
+
+            <button class="btn colorBtn blue" data-key="color" data-value="blue">Blue</button>
+            <button class="btn colorBtn yellow" data-key="color" data-value="yellow">Yellow</button>
+            <button class="btn colorBtn pink" data-key="color" data-value="pink"> Pink</button>
+        </div>
+    </div>
+
+    <!--items-->
+    <ul class="items"></ul>
+
+
+    <script defer src="main.js"></script>
+</body>
+
+</html>

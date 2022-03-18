@@ -26,4 +26,4 @@ style.css
 
 <img src="img/minishop.gif">
 
-## https://kimkyungmin123.github.io/mini-shopping/
+https://kimkyungmin123.github.io/mini-shopping/
